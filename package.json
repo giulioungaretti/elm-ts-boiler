@@ -1,0 +1,25 @@
+{
+  "name": "elm-typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "@types/webpack": "^4.4.11",
+    "elm-webpack-loader": ">=5.0.0",
+    "request": ">=.88.0",
+    "ts-loader": "^5.0.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "watch": "webpack --watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
